@@ -44,11 +44,11 @@ This is read-only reference knowledge — don't modify the bundle.
 
 ## What's inside
 
-- `knowledge/index.md` — the table of contents (start here)
+- `index.md` — the table of contents (start here)
+- `log.md` — change history
 - `knowledge/concepts/` — 6 cross-cutting principles that tie the workflows together
 - `knowledge/workflows/` — 2 practical step-by-step methodologies (trace-verified)
 - `okf_cli.py` — the dependency-free navigation/search CLI
-- `knowledge/log.md` — change history
 
 ## License
 

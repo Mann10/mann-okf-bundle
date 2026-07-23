@@ -4,8 +4,8 @@ An Open Knowledge Format bundle of battle-tested patterns for building AI skills
 
 ## Sections
 
-- [concepts/](concepts/index.md) — cross-cutting principles that tie the workflows together
-- [workflows/](workflows/index.md) — practical, step-by-step methodologies (trace-verified)
+- [concepts/](knowledge/concepts/index.md) — cross-cutting principles that tie the workflows together
+- [workflows/](knowledge/workflows/index.md) — practical, step-by-step methodologies (trace-verified)
 
 ## Themes at a glance
 
