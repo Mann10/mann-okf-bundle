@@ -8,7 +8,7 @@ A grounded knowledge base documenting real, battle-tested patterns for building 
 
 Paste this to your AI coding assistant (Claude Code, Cursor, Codex, Gemini CLI, …):
 
-> Here's a knowledge bundle: `My github`
+> Here's a knowledge bundle: https://github.com/Mann10/mann-okf-bundle
 > Read its README and set it up so I can search over it. Then tell me what's inside.
 
 That's it — your agent reads the rest of this README, clones the bundle, and you can start asking questions about anything I teach.
