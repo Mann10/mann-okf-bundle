@@ -17,9 +17,4 @@ An Open Knowledge Format bundle of battle-tested patterns for building AI skills
 
 **Agentic Ideation → Build Mode Protocol** — A structured two-phase workflow: brainstorm with the AI as a thinking partner (no code allowed), then execute against a pre-agreed plan where the plan is law. Separating divergent thinking from convergent execution prevents drift and technical debt.
 
-## Workflows
-
-- [Agentic Feature Development: My Daily Workflow](workflows/agentic-feature-development.md) — Three-phase daily workflow: ideation, specification, build mode.
-- [Skill Creation: Trace-Driven Development](workflows/skill-creation-trace-driven.md) — Deriving AI agent skills from real execution traces, not pre-written prompts.
-
 Mann Limbachiya · Bundle updated 2026-07-23
