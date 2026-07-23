@@ -1,0 +1,77 @@
+{
+  "concepts": [
+    {
+      "id": "execution-traces",
+      "name": "Execution Traces",
+      "type": "core-principle",
+      "appears_in": ["skill-creation-trace-driven"],
+      "supports": ["trace-driven-specification"],
+      "contradicts": []
+    },
+    {
+      "id": "progressive-disclosure",
+      "name": "Progressive Disclosure",
+      "type": "core-principle",
+      "appears_in": ["skill-creation-trace-driven", "agentic-feature-development"],
+      "supports": ["agentic-ideation", "build-mode-protocol"],
+      "contradicts": []
+    },
+    {
+      "id": "session-hygiene",
+      "name": "Session Hygiene",
+      "type": "operational-practice",
+      "appears_in": ["agentic-feature-development"],
+      "supports": ["agentic-ideation", "build-mode-protocol"],
+      "contradicts": []
+    },
+    {
+      "id": "trace-driven-specification",
+      "name": "Trace-Driven Specification",
+      "type": "methodology",
+      "appears_in": ["skill-creation-trace-driven", "agentic-feature-development"],
+      "supports": ["execution-traces", "progressive-disclosure"],
+      "contradicts": ["template-driven-development"]
+    },
+    {
+      "id": "agentic-ideation",
+      "name": "Agentic Ideation",
+      "type": "operational-practice",
+      "appears_in": ["agentic-feature-development"],
+      "supports": ["progressive-disclosure", "session-hygiene"],
+      "contradicts": ["code-first-ideation"]
+    },
+    {
+      "id": "build-mode-protocol",
+      "name": "Build Mode Protocol",
+      "type": "operational-practice",
+      "appears_in": ["agentic-feature-development"],
+      "supports": ["trace-driven-specification", "session-hygiene"],
+      "contradicts": ["improvisational-coding"]
+    }
+  ],
+  "cross_video_themes": [
+    {
+      "theme": "Groundedness over Imagination",
+      "videos": ["skill-creation-trace-driven", "agentic-feature-development"],
+      "summary": "Both videos reject abstract planning in favor of learning from real execution. Skills come from traces, not templates. Plans come from ideation, not assumptions."
+    },
+    {
+      "theme": "Progressive Disclosure",
+      "videos": ["skill-creation-trace-driven", "agentic-feature-development"],
+      "summary": "Both workflows use staged revelation: execute first then synthesize (skill creation), ideate first then build (feature development)."
+    },
+    {
+      "theme": "Anti-Drift Mechanisms",
+      "videos": ["agentic-feature-development"],
+      "summary": "The written plan is the primary anti-drift mechanism. In skill creation, the trace is the spec. In feature development, the plan is the contract."
+    }
+  ],
+  "disagreements": [
+    {
+      "topic": "When to write things down",
+      "video_a": "skill-creation-trace-driven",
+      "video_b": "agentic-feature-development",
+      "resolution": "Skill creation captures traces AFTER execution. Feature development writes plans BEFORE build. Both are trace-driven: one captures the trace of doing, the other captures the trace of thinking."
+    }
+  ]
+}
