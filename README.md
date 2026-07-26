@@ -18,23 +18,21 @@ That's it — your agent reads the rest of this README, clones the repo, and you
 ```bash
 git clone https://github.com/Mann10/mann-okf-bundle
 cd mann-okf-bundle
-python okf_cli.py index      # confirm it works — prints the table of contents
 ```
 
-## 2. Use the CLI
+## 2. Navigate the bundle
 
-```bash
-python okf_cli.py index [subpath]     — print an index (start at root; e.g. python okf_cli.py index concepts)
-python okf_cli.py find "<query>"      — ranked keyword search across the bundle
-python okf_cli.py read <path>         — print a page, e.g. python okf_cli.py read concepts/execution-traces.md
-```
+This bundle uses progressive disclosure through its index.md chain:
 
-(You can also open the markdown files directly — `okf_cli.py` is only a convenience.)
+1. Read `index.md` for the section list
+2. Read `knowledge/index.md` to pick between concepts and workflows
+3. Read that section's `index.md` to see available pages
+4. Read only the pages you need, follow cross-links to dive deeper
 
 ## 3. How to answer questions
 
-1. Run `python okf_cli.py index` (or read `knowledge/index.md`) to locate the relevant pages.
-2. Run `python okf_cli.py read` the specific files — only what's relevant, not the whole bundle (progressive disclosure).
+1. Read `index.md` (or `knowledge/index.md`) to locate the relevant pages.
+2. Read the specific files — only what's relevant, not the whole bundle (progressive disclosure).
 3. Follow the cross-links between concepts and workflows.
 4. Answer grounded in those pages. Cite the source by its `type` + `title` + section heading.
 
@@ -48,7 +46,6 @@ This is read-only reference knowledge — don't modify the bundle.
 - `log.md` — change history
 - `knowledge/concepts/` — 6 cross-cutting principles that tie the workflows together
 - `knowledge/workflows/` — 2 practical step-by-step methodologies (trace-verified)
-- `okf_cli.py` — the dependency-free navigation/search CLI
 
 ## License
 

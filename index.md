@@ -1,11 +1,10 @@
 # Mann's OKF Bundle — Agentic AI Workflows
 
-An Open Knowledge Format bundle of battle-tested patterns for building AI skills and agentic feature workflows — curated so any AI agent can mount it and search it deeply. Point your agent at it and ask anything Mann has taught about AI coding: execution traces, session hygiene, progressive disclosure, and the trace-driven development method.
+An Open Knowledge Format bundle of battle-tested patterns for building AI skills and agentic feature workflows — curated so any AI agent can mount it and search it deeply.
 
-## Sections
+# Subdirectories
 
-- [concepts/](knowledge/concepts/index.md) — cross-cutting principles that tie the workflows together
-- [workflows/](knowledge/workflows/index.md) — practical, step-by-step methodologies (trace-verified)
+- [knowledge](knowledge/index.md) — This directory contains cross-cutting principles and practical, step-by-step methodologies for building AI skills and agentic features
 
 ## Themes at a glance
 

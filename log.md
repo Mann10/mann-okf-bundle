@@ -1,6 +1,10 @@
 # Bundle Log
 
 ## 2026-07-23
+
+- **Removal**: Removed `okf_cli.py` — progressive disclosure is now enforced purely through the `index.md` chain and agent instructions
+
+## 2026-07-23
 - **Restructure**: Migrated bundle to conform to Google's Open Knowledge Format (OKF) v0.1 spec.
 - **Restructure**: Renamed `videos/` to `workflows/` — files describe actionable workflows, not video content.
 - **Update**: Added `type`, `description`, `tags`, `timestamp` to all concept and workflow frontmatter blocks.
