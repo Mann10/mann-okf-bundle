@@ -7,7 +7,7 @@ An [Open Knowledge Format (OKF) v0.1](https://github.com/GoogleCloudPlatform/kno
 Paste this to your AI coding assistant (Claude Code, Cursor, Codex, Gemini CLI, …):
 
 > Here's a knowledge bundle: `https://github.com/Mann10/mann-okf-bundle`
-> Read its README and set it up so I can search over it. Then tell me what's inside.
+> Read the README first for instructions, then read the root `index.md` only for the gist, and stop. Wait for questions. When user ask something, navigate using the `index.md` chain: read a subdirectory's `index.md` first, then read only the pages you need.
 
 That's it — your agent reads the rest of this README, clones the repo, and you can start asking questions about anything I teach.
 
